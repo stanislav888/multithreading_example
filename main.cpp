@@ -12,7 +12,7 @@
 #include <QTime>
 
 const unsigned int EXPECTED_NUMBER = 50;
-const int MAXIMUM_NUMBER = 100; // Should be 100
+const int MAXIMUM_NUMBER = 100;
 
 namespace
 {
@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
 	}
 	else if( arguments.size() == 1 )
 	{
-		errorString = "Please use ./IvanovTestTask <numbers amount> <threads amount>";
+		errorString = "Please use ./multithreading_example <numbers amount> <threads amount>";
 	}
 	else
 		errorString = "Please define only 2 numeric arguments";
